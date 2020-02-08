@@ -37,4 +37,4 @@ function gauss_jordan(A)
     B = aug(:,n+1:2*n);
     disp(B,'The Inverse of A is ');
 endfunction
-gauss_jordan(A)
+gauss_jordan(A);
