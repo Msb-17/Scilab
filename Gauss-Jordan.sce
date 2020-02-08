@@ -20,8 +20,7 @@ function gauss_jordan(A)
         end
 
     end
-    //backward elimination
-
+  
     for j=n:-1:2
 
             aug(1:j-1,:) = aug(1:j-1,:) - aug(1:j-1,j)/aug(j,j)*aug(j,:)
@@ -35,9 +34,7 @@ function gauss_jordan(A)
 
     end
 
-    
-
     B = aug(:,n+1:2*n);
-
     disp(B,'The Inverse of A is ');
 endfunction
+gauss_jordan(A)
