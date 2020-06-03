@@ -27,7 +27,7 @@ function [x] = gaussianelimination(A,b)
 
         abort;
 
-    elseif n~= m1
+    elseif n~= m1 
 
         error('Incompatible Dimensions of A and b');
 
