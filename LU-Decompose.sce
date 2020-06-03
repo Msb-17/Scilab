@@ -23,7 +23,7 @@ function lu_decomp(A)
 
     U(2,:) = U(2,:) - U(1,:)/(m/n);
 
-    n= det(U(3,1));
+    n= det(U(3,1)); 
 
     b=n/m;
 
