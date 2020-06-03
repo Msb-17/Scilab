@@ -23,7 +23,7 @@ function[a]=ColumnSpace(A,b)
           
     
 endfunction
-
+ 
 function main()
     A=[0,0,0;0,0,0;0,0,0]
     A(1,1)=input("enter a11: ")
