@@ -75,5 +75,5 @@ function [x] = gaussianelimination(A,b)
 
     
 
-endfunction
+endfunction 
 
