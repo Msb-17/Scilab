@@ -18,7 +18,7 @@ function [A]=SubSpaces(A,b)
     disp(lns,'Left Null Space=');
 endfunction
 
-function main()
+function main() 
     A=[0,0,0;0,0,0;0,0,0]
     A(1,1)=input("enter a11: ")
     A(1,2)=input("enter a12: ")
